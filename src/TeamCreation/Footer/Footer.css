@@ -1,0 +1,50 @@
+.footer .next-m {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background:#051240 !important;
+    color: #fff;
+    opacity: 1 !important;
+    border-radius: 0;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 59px; 
+ } 
+/* .btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+} */
+/* section {
+    display: flow-root;
+} */
+
+section {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.custom-toast{
+    margin-bottom: 50px;
+    color:red !important;
+    height: 60px;
+    background-color: aqua;
+}
+
+.disable{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+    background-color: #cccccc;
+    color: #666666 !important;
+    cursor: not-allowed !important;
+    opacity: 1 !important;
+    border-radius: 0;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 59px; 
+
+}

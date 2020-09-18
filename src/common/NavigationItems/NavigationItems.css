@@ -1,0 +1,13 @@
+.NavigationItems {
+    margin:0; 
+    padding:0; 
+    border-right: 1px solid #e2e2e240;
+}
+.NavigationItems a:hover{
+    text-decoration: none; cursor: pointer;
+}
+
+.NavigationItems img { 
+    margin-left: 5px; 
+    width: 20px;
+}

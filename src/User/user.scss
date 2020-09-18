@@ -1,0 +1,310 @@
+/*profile-10 basic css start*/
+
+
+.radio-j h2{
+    font-size: 12px;
+    color: #7F7F7F;
+   }
+   .panbank-basic-tab-sec {
+   padding: 0 0 70px 0;
+   }
+   
+   .edit-profile-j {
+       
+       font-size: 10px;
+       color: #08AF4F;
+       top: 5px;
+        cursor: pointer;
+       float: right;
+   }
+   
+   .gps-img-j{
+   float: right;
+   position: relative;
+   top: 10px;}
+   /*profile-10 basic css end*/
+   
+   
+   /*private contest css start*/
+   .parent {
+       width: 100%;
+       position: relative;
+       float: left;
+       height: 80px;
+       /*background: #1022FF;*/
+       color: #fff;
+       padding: 20px;
+       font-size: 2em;
+       text-align: center;
+           overflow: hidden;
+   }
+   .parent div {
+       width: 89%;
+       height: 80px;
+       position: relative;
+       float: left;
+       top: -20px;
+       left: 32%;
+       z-index: 999;
+       color: #fff;
+       padding: 20px;
+       font-size: 2em;
+       text-align: center;
+       -webkit-transform: skew(-200deg);
+       -moz-transform: skew(-200deg);
+       transform: skew(-200deg);
+   }
+   .parent div h1 { margin: 0; padding: 0;
+      font-size: 14px; 
+     -webkit-transform:skew(200deg);
+     -moz-transform:skew(200deg);
+     transform:skew(200deg);
+       text-align: left;
+   text-transform: uppercase;
+       margin-top: 11px;
+   }
+   .parent h1{    
+       position: absolute;
+       margin: 0;
+       font-size: 14px;
+       text-transform: uppercase;
+       margin-top: 11px;
+     }
+   
+   .pad0-j {
+       padding: 0;
+   }
+   
+//    .team-m h4 {
+//        font-size: 14px;
+//        position: absolute;
+//        right: 15px;
+//        text-transform: uppercase;
+//        top: 85px;
+//        z-index: 9999;
+//        text-align: right;
+//        display: flex;
+//        align-items: center;
+//    }
+   
+   .private-contest-para-j{
+   
+   padding: 30px 0 65px 0;
+   border-bottom: 1px solid #e0e0e0;
+   opacity: 1;
+   
+   }
+   
+   .private-contest-para-j p{
+   
+    font-size: 10px;
+       color: #0F001F;
+       font-weight: 400;
+   }
+     .private-contest-sec{
+       padding: 0 0 40px 0;
+     } 
+     .form-praivate-j{
+       padding: 15px;
+     }
+     /*private contest css end*/
+   
+   /*my wallet css start*/
+   
+   
+   .wallet-data-j{
+      color:#000000;
+      font-size: 12px;
+      font-weight: 400; 
+      /*float: right;*/
+      /*border-bottom: 1px solid #EEEEEE !important;*/
+   }
+   .wallet-dataprize-j{
+       float: right;
+      color: #000000;
+       font-size: 12px;
+       font-weight: 500;
+   }
+   .wallet-j{
+      /*border-bottom: 1px solid #EEEEEE  !important;*/
+   
+       padding: 10px 0;
+   }
+   
+   .table>tbody>tr> {
+       padding: 8px;
+       line-height: 1.42857143;
+       border: none;
+      /*border-bottom: 1px solid #EEEEEE  !important;*/
+   }
+   .wallet-heading-j h3{
+       font-size: 12px;
+       font-weight: 500;
+       color: #000000;
+       padding: 2px 0 10px 0;
+   
+   }
+   .wallet-heading-j h4{
+   font-size: 12px;
+       color: #818181;
+       height: 40px;
+       background: #F2F2F2;
+       padding: 14px 0 0 10px;
+       width: 90%;
+   border-radius: 4px;}
+   
+   
+   .walletbtn-1 {
+       color: #000000;
+       background-color: #fff;
+       border-color: #ccc;
+   }
+   .walletbtn-1 {
+       display: inline-block;
+       margin-bottom: 0;
+       font-weight: 400;
+       text-align: center;
+       white-space: nowrap;
+       vertical-align: middle;
+       -ms-touch-action: manipulation;
+       touch-action: manipulation;
+       cursor: pointer;
+       background-image: none;
+       border: 1px solid #D5D5D5;
+       padding: 10px 33px;
+       font-size: 11px;
+       line-height: 1.42857143;
+       border-radius: 4px;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+       font-weight: 400;
+   }
+   
+//    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+//        padding: 8px;
+//        line-height: 1.42857143;
+//        vertical-align: top;gi
+//         border:none;
+//    }
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    width: 100%;
+    list-style: none;
+}
+.profile-j>li {
+    position: relative;
+    display: block;
+    width: 50%;
+}
+.profile-j>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000;
+    /* text-decoration: none; */
+}
+.data-j {
+    padding: 15px 0 0 15px;
+}
+.data-j p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ADADAD;
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+.data-j h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+.formdata{
+    font-size: 14px !important;
+    color: #000000 !important;
+    font-weight: 400 !important
+}
+.profile-j>li>a.active {
+    color: #EB1538;
+    cursor: default;
+    border: none;
+    text-decoration: none;
+}
+.panbank-heading-j h3 {
+    font-size: 14px;
+    color: #304DB6;
+    font-weight: 500;
+    padding: 25px 0 0 0;
+}
+.panbank-heading-j h2 {
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    padding: 20px 0 15px 0;
+    text-transform: uppercase;
+}
+.panbank-heading-j h4 {
+    font-size: 10px;
+    color: #7F7F7F;
+    text-align: center;
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 100%;
+    padding: 15px 0 0 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+.panbank-heading-j input {
+    font-size: 10px;
+    color: #7F7F7F;
+    text-align: center;
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 100%;
+    padding: 15px 0 0 0;
+    font-weight: 500;
+}
+//    }
+.dataa-j p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ADADAD;
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+.dataa-j h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+.status-card{
+    flex-direction: row;
+    margin: 20px auto;
+    padding: 10px 20px;
+}
+
+.status-key, .status-value{
+    padding: 0px;
+    font-size: 14px;
+}
+
+.status-value{
+    text-align: right;
+    font-weight: 600;
+}

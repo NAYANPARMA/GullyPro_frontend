@@ -1,0 +1,137 @@
+@import url('https://rsms.me/inter/inter.css');
+@font-face{
+  font-family: 'Bebas Regular';
+  src: local('Bebas Regular'), url(./fonts/BebasNeue-Regular.woff) format('woff');
+}
+html, body { width: 100%; height: 100%; overflow-y: hidden; font: Medium Inter; }
+
+section{width: 100%; position: relative; float: left;}
+.content-s { width: 33.33%; overflow-y: scroll; background: #fff; position: fixed; top: 0; bottom: 0; z-index: 999; }
+.pad0-s { padding: 0; }
+.rightimage {background: #051240;background-repeat: repeat-x; width: 100%; position: fixed; top: 0; bottom: 0;  }
+
+@media (min-width: 350px) and (max-width: 767px) { 
+    .rightimage { display: none; }
+    .content-s { width: 100%; }
+}
+@media (min-width: 769px) and (max-width: 1024px) { 
+    .content-s { width: 50%; }
+}
+@media (min-width: 767px) and (max-width: 768px) { 
+    .content-s { width: 58.33%; }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{ float: left; }
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th { padding: 0; }
+
+.hidden{
+  display: none !important;
+}
+
+/* pay store cashdrop loader */
+
+.lds-spinner {
+  color: #000;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-spinner div {
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 38px;
+  width: 4px;
+  height: 14px;
+  border-radius: 20%;
+  background: #000;
+}
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+  transform: rotate(45deg);
+  animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+  transform: rotate(90deg);
+  animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+  transform: rotate(135deg);
+  animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+  transform: rotate(180deg);
+  animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+  transform: rotate(225deg);
+  animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+  transform: rotate(270deg);
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+  transform: rotate(315deg);
+  animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+  transform: rotate(360deg);
+  animation-delay: -0.3s;
+}
+// .lds-spinner div:nth-child(10) {
+//   transform: rotate(315deg);
+//   animation-delay: -0.2s;
+// }
+// .lds-spinner div:nth-child(11) {
+//   transform: rotate(360deg);
+//   animation-delay: -0.1s;
+// }
+// .lds-spinner div:nth-child(12) {
+//   transform: rotate(330deg);
+//   animation-delay: 0s;
+// }
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.loading-text{
+  color: '#7F7F7F';
+  font-size:'14px';
+}

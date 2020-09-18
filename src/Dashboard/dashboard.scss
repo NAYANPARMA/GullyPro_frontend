@@ -1,0 +1,29 @@
+.content {
+    width: 100%; 
+    position: relative; 
+    float: left; 
+    margin-top: 60px; 
+}
+.padbottom50 {  
+    padding: 0 0 50px 0; 
+}
+.pad0-s {
+    padding: 0;
+}
+
+.upcoming-pos {
+    margin-top: -70px !important;
+}
+
+.upcoming-bottom {
+    display: flex;
+    padding: 5px 0 0 0;
+    font-size: 12px;
+}
+
+.upcoming-bottom p {
+    /* width: 70%; */
+    width: 50%;
+    font-size: 12px;
+    margin: auto 5px;
+}

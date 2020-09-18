@@ -1,0 +1,60 @@
+.referral-s { background: none; }
+.referral-s tr { border-bottom: 1px solid #eeeeee; }
+.referral-s tr:last-child { border-bottom: none; }
+.referral-s tr td:first-child { color: #000; font-size: 12px; padding: 10px 15px; text-align: left; font-weight: 500; vertical-align: top; }
+.referral-s tr td:last-child { color: #000; font-size: 22px; padding: 10px 0; text-align: left; font-weight: 500; vertical-align: top; }
+.referral-s h2 { font-size: 14px; color: #000; margin: 0; padding: 10px 0; font-weight: 400; }
+.referral-s h3 { font-size: 12px; color: #fff; margin: 0; padding: 10px 15px; font-weight: 400; background: #051240 0% 0% no-repeat padding-box;
+box-shadow: 1px 2px 3px #00000029; }
+.referral-s p { font-size: 22px; color: #000; margin: 0; padding: 0; font-weight: 500; width: 180px; }
+.referral-s button { margin: 0; text-align: center; padding: 12px 15px; border-radius: 6px; background: transparent; color: #08AF4F; border: none; outline: none; font-size: 12px; font-weight: 400; }
+
+.addcash-s { width: 100%; position: relative; float: left; }
+.refer-and-earn .addcash-s p { margin: 0 0 5px 0; padding: 0; font-size: 14px; color: #000; font-weight: 500; }
+.addcash-s input { margin: 10px 0; width: 300px; padding: 10px 15px; background: #F2F2F2; font-size: 12px; color: #818181; font-weight: 500; border: none; outline: none; }
+.addcash-s button { margin: 0 15px 0 0; text-align: center; padding: 8px 15px; background: none; border: 1px solid #D5D5D5; border-radius: 4px; color: #000; outline: none; font-size: 12px; font-weight: 400; } 
+
+.invite-s { width: 100%; position: relative; float: left; }
+.invite-s p { margin: 0; padding: 0; font-size: 12px; color: #7F7F7F; font-weight: 400; }
+.invite-s input { margin: 10px 0; width: 300px; padding: 10px 15px; background: #F2F2F2; font-size: 12px; color: #818181; font-weight: 500; border: none; outline: none; }
+.invite-s button { margin: 0 15px; text-align: left; padding: 8px 0px; background: none; border: none; border-radius: 4px; color: #000; outline: none; font-size: 12px; font-weight: 400; } 
+.invite-s button:first-child { margin: 0 15px 0 0; }
+
+.refer-s { width: 100%; position: relative; float: left; margin: 15px 0 0 0; }
+.refer-s h3 { font-size: 12px; color: #000; margin: 0; padding: 10px 15px; font-weight: 400; background: #EEEEEE 0% 0% no-repeat padding-box; }
+
+.referralhistory-s { background: none; }
+.referralhistory-s tr { border-bottom: 0.5px solid #7F7F7F; }
+.referralhistory-s tr th:first-child { width: 33.33%; border-right: 0.5px solid #7F7F7F; color: #000; font-size: 12px; padding: 10px 15px; text-align: center; font-weight: 500; vertical-align: top; }
+.referralhistory-s tr th { width: 33.33%; color: #000; font-size: 12px; padding: 12px 15px; text-align: center; font-weight: 500; vertical-align: top; }
+.referralhistory-s tr th:last-child { width: 33.33%; border-left: 0.5px solid #7F7F7F; color: #000; font-size: 12px; padding: 10px 0; text-align: center; font-weight: 500; vertical-align: top; }
+
+.referralhistory-s tr td:first-child { width: 33.33%; border-right: 0.5px solid #7F7F7F; color: #000; font-size: 12px; padding: 10px 15px; text-align: center; font-weight: 500; vertical-align: top; }
+.referralhistory-s tr td { width: 33.33%; color: #000; font-size: 12px; padding: 10px 15px; text-align: center; font-weight: 500; vertical-align: top; }
+.referralhistory-s tr td:last-child { width: 33.33%; border-left: 0.5px solid #7F7F7F; color: #000; font-size: 12px; padding: 10px 0; text-align: center; font-weight: 500; vertical-align: top; }
+.referralhistory-s h2 { font-size: 12px; color: #000; margin: 0; padding: 10px 0; font-weight: 400; }
+
+.middle-s { background-color: white; height: 40px; position: fixed; bottom: 30px; width: 100%; }
+.whatsapp-s { padding: 5px; max-width: 300px; width: 100%; background: #1C9B11 0% 0% no-repeat padding-box; display: block; margin: 0 auto; color: #fff; border-radius: 6px; outline: none; border: none; }  
+
+.referral-s td {
+    border: none;
+}
+
+input#referral-code {
+    font-size: 22px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    width: 180px;
+    border: none;
+}
+
+input#referral-code:focus{
+    outline: none;
+}
+
+.refer-and-earn .invite-s img {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,40 @@
+{
+  "short_name": "GullyPro",
+  "name": "GullyPro",
+  "icons": [
+    {
+      "src": "images/logo_16x16.jpg",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo_24x24.jpg",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo_32x32.jpg",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo_64x64.jpg",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo_192x192.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/logo_512x512.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#051240",
+  "background_color": "#051240"
+}

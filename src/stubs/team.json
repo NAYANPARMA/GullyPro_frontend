@@ -1,0 +1,80 @@
+{ 
+    "data": {
+        "players":[
+            {"player_id": 1, "player_name":"M S Dhoni" , "player_type":"wicketkeeper", "team":"mum"},
+            {"player_id": 2, "player_name":"Rishbh Pant" , "player_type":"wicketkeeper", "team":"mum"},
+            {"player_id": 3, "player_name":"A Carey" , "player_type":"wicketkeeper", "team":"csk"},
+            {"player_id": 4, "player_name":"P Handscomb" , "player_type":"wicketkeeper", "team":"csk"},
+            {"player_id": 5, "player_name":"Virat Kohli" , "player_type":"batsmen", "team":"mum"},
+            {"player_id": 6, "player_name":"Rohit Sharma" , "player_type":"batsmen", "team":"mum"},
+            {"player_id": 7, "player_name":"David Warner" , "player_type":"batsmen", "team":"csk"},
+            {"player_id": 8, "player_name":"aron Finch" , "player_type":"batsmen", "team":"csk"},
+            {"player_id": 9, "player_name":"Hardik Pandya" , "player_type":"allrounder", "team":"mum"},
+            {"player_id": 10, "player_name":"Ravindra Jadeja" , "player_type":"allrounder", "team":"mum"},
+            {"player_id": 11, "player_name":"D Short" , "player_type":"allrounder", "team":"csk"},
+            {"player_id": 12, "player_name":"M Labuschagne" , "player_type":"allrounder", "team":"csk"},
+            {"player_id": 13, "player_name":"J Bumrah" , "player_type":"bowler", "team":"mum"},
+            {"player_id": 14, "player_name":"Kuldeep Yadav" , "player_type":"bowler", "team":"mum"},
+            {"player_id": 15, "player_name":"P Cummins" , "player_type":"bowler", "team":"csk"},
+            {"player_id": 16, "player_name":"M Starc" , "player_type":"bowler", "team":"csk"}
+        ],
+        "countOfplayers": "11",
+        "Roles":[
+            {"player_type":"wicketkeeper" , "count":3},
+            {"player_type":"batsmen", "count":7},
+            {"player_type": "allrounder", "count":5},
+            {"player_type":"bowler", "count":7}
+        ]
+    },
+     "contest_list":{
+        "contests":{ 
+            "1":{ 
+               "category":"Mega Contests",
+               "contests":{ 
+                  "1":{ 
+                     "contest_player_id":1,
+                     "prize_pool":2500000,
+                     "spots":100000,
+                     "joined":50000,
+                     "entry":0,
+                     "teams_allowed":5,
+                     "category_player_id":1,
+                     "category_name":"Mega Contests"
+                  },
+                  "2":{ 
+                     "contest_player_id":2,
+                     "prize_pool":100000,
+                     "spots":7000,
+                     "joined":5000,
+                     "entry":0,
+                     "teams_allowed":4,
+                     "category_player_id":1,
+                     "category_name":"Mega Contests"
+                  }
+               }
+            }
+         },
+        "my_contests":{ 
+            "1":{ 
+               "match_player_id":1,
+               "contest_player_id":1,
+               "prize_pool":2500000,
+               "spots":100000,
+               "joined":50000,
+               "entry":0,
+               "teams_allowed":5,
+               "category":"Mega Contests",
+               "teams":{ 
+                  "0":{ 
+                     "team":null,
+                     "points":null
+                  },
+                  "1":{ 
+                     "team":null,
+                     "points":null
+                  }
+               }
+            }
+         }
+     }
+}

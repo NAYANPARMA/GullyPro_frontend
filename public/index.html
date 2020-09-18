@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/images/logo_32x32.png" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Fantasy Game App."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/logo_192x192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="stylesheet" href="carousel.css"/>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>GullyPro</title>
+
+    <style>
+    
+    .custom-modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 9999; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .custom-modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    @media (min-width: 768px) {
+        .custom-modal-content {
+            width: 24rem;
+        }
+    }
+
+    .cust-modal-header{
+      text-align: right;
+    }
+
+    .cust-modal-content{
+      text-align: center;
+    }
+
+    #butInstall{
+      margin: 0 auto;
+      width: 90%;
+      background: #08AF4F 0% 0% no-repeat padding-box;
+      box-shadow: 1px 2px 3px #00000029;
+      border-radius: 8px;
+      opacity: 1;
+      color: #FFFFFF;
+      height: 36px;
+    }
+    </style>
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <div id="installContainer" class="custom-modal">
+
+      <!-- Modal content -->
+      <div class="custom-modal-content">
+          <span aria-hidden="true" style="cursor: pointer;/* right: 0; */width: 100%;text-align: right;"><img src="/images/close.png" onclick="return closeModal();"></span>
+          <img src="/images/logo_512x512.png" alt="" width="150px" height="200px" style="width: 90%;margin: 0 auto;">
+          <button id="butInstall" type="button">Install</button>
+        </div>
+      </div>
+      
+    </div>
+<!-- 
+    <div id="installContainer" class="hidden">
+      <div class="custom-modal">
+        <div class="cust-modal-header">
+            <span aria-hidden="true" style="cursor: pointer;"><img src="/images/close.png"></span>
+        </div>
+      </div>
+        <button id="butInstall" type="button">
+          Install
+        </button>
+    </div> -->
+
+    <script>
+      var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (isMobile) {
+        /* your code here */
+        const divInstall = document.getElementById('installContainer');
+        const butInstall = document.getElementById('butInstall');
+
+        function closeModal(){
+          divInstall.style.display = 'none';
+        }
+
+
+        window.addEventListener('beforeinstallprompt', (event) => {
+          console.log('👍', 'beforeinstallprompt', event);
+          // Stash the event so it can be triggered later.
+          window.deferredPrompt = event;
+          // Remove the 'hidden' class from the install button container
+          divInstall.style.display = 'block';
+        });
+
+        butInstall.addEventListener('click', () => {
+          console.log('👍', 'butInstall-clicked');
+          const promptEvent = window.deferredPrompt;
+          if (!promptEvent) {
+            // The deferred prompt isn't available.
+            return;
+          }
+          // Show the install prompt.
+          promptEvent.prompt();
+          // Log the result
+          promptEvent.userChoice.then((result) => {
+            console.log('👍', 'userChoice', result);
+            // Reset the deferred prompt variable, since
+            // prompt() can only be called once.
+            window.deferredPrompt = null;
+            // Hide the install button.
+            divInstall.style.display = 'none';
+          });
+        });
+        
+        window.addEventListener('appinstalled', (event) => {
+          console.log('👍', 'appinstalled', event);
+          document.getElementById('installContainer').style.display = 'none';
+          divInstall.style.display = 'none';
+          window.location.reload();
+        });
+      }
+    </script>
+  </body>
+</html>

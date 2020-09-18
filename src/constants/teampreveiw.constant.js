@@ -1,0 +1,4 @@
+export const teampreveiwconstant={
+    SET_TEAMPREVEIW:'SET_TEAMPREVEIW',
+    RESETTEAMPREVEIW:'RESETTEAMPREVEIW',
+}

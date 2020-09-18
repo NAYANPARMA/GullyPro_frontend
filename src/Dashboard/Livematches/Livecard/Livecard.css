@@ -1,0 +1,84 @@
+.live-m { 
+    color: #FFF; 
+    margin: 0; 
+    text-transform: uppercase; 
+    font-size: 10px; 
+    font-weight: 600;
+    width: 100%; 
+    position: absolute; 
+    letter-spacing: 2px; 
+    padding: 10px 15px 15px 20px; 
+    top: 0;
+}
+
+
+
+.current-match { 
+    width: 100%; 
+    position: relative; 
+    float: left; 
+    bottom: 60px; 
+    padding: 0; 
+}
+.upper-rightm { 
+    text-align: right; 
+    background-color: white; 
+    font-size: 12px; 
+    letter-spacing: 1px; 
+    color: black; 
+    margin: 0;  
+    padding: 5px 10px; 
+    border-radius: 10px 10px 0px 0px; 
+}
+.teams { 
+    display: table; 
+    width: 100%; 
+}
+.team-A { 
+    color: white; 
+    text-transform: uppercase; 
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    font-size: 14px; 
+    vertical-align: middle; 
+    text-align: center; 
+    display: table-cell; 
+    width: 50%; 
+    height:75px; 
+}
+.team-B { 
+    color: white; 
+    text-transform: uppercase; 
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    font-size: 14px; 
+    vertical-align: middle; 
+    text-align: center; 
+    display: table-cell; 
+    width: 50%; 
+    height:75px; 
+}
+.vs { 
+    position: absolute; 
+    left:46%; 
+}
+.upper-bottom { 
+    background-color: white; 
+    font-size: 12px; 
+    letter-spacing: 1px; 
+    color: black; 
+    margin: 0; 
+    padding: 5px 10px; 
+    border-radius: 0px 0px 10px 10px; 
+    border: 1px solid #ececec; 
+}
+
+.pad0-s {
+    padding: 0;
+}
+.patch { 
+    background-color: #051240; 
+    border-radius: 0px 0px 60px 60px; 
+    height: 90px; 
+    width: 100%; 
+}

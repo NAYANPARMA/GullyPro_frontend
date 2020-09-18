@@ -1,0 +1,19 @@
+.preview { 
+    background-color: #EDEDED; 
+    width: 100%; 
+    position: relative; 
+    float: left; 
+}
+.preview p {
+    background-color: #EDEDED; 
+    color: #000; 
+    font-size: 12px; 
+    font-weight: bold; 
+    float: right; 
+    padding: 10px 20px;
+    margin: 0; 
+}
+
+.create-team{
+    margin-top: 60px;
+}

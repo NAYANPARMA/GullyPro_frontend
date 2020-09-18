@@ -1,0 +1,625 @@
+// .login-m{margin: 0 16px;    height: 55px;}
+.login-m span{ position: relative;float: left;margin: 15px 0px; }
+
+.pad0-s { padding: 0; }
+
+.rightblackwallet-m {
+    letter-spacing: 0.3px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.privatecard h2 .third {
+  float: right;
+  margin: 0 15px 0 0;
+  color: #051240;
+}
+.privatecard h5 {
+  width: 100%;
+  position: relative;
+  float: left;
+  background: #F7F8FF;
+  color: black;
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 10px;
+}
+.privatecard h5 .first {
+  margin: 0 0 0 15px;
+  position: relative;
+  float: left;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 500;
+}
+.privatecard h5 .third {
+  margin: 0 15px 0 0;
+  position: relative;
+  float: right;
+  color: #000000;
+  font-weight: 500;
+}
+
+.main-content { width: 100%; position: relative; float: left; border-bottom: solid 1px #e2e2e2; padding: 0 0 15px 0; }
+
+.contest { width: 100%; position: relative; float: left; }
+.contest p { color: black; font-size: 10px; text-align: center; padding: 7px 10px; margin: 10px 0; border: 1px solid #EEEEEE; border-radius: 5px; }
+.contest h3 { font-size: 14px; font-weight: 600; color: black; text-align: left; padding: 10px 15px; margin: 0; text-transform: uppercase; }
+.contest h2 { font-size: 10px; color: white; font-weight: 500; text-align: left; padding: 10px 15px; top: 0; margin: 0; position: absolute; right: 0; background: #08AF4F 0% 0% no-repeat padding-box; border-radius: 10px 0px 0px 10px; }
+
+.filter-contest { margin-bottom: 0; background: #EEEEEE; height: fit-content !important; }
+.filter-contest tr td:first-child {
+  text-align: left;
+  padding: 5px 15px !important;
+  width: 45%;
+}
+.filter-contest tr td { color: #000000; text-align: left; font-size: 10px; margin: 0; padding: 0; }
+.filter-contest tr td:last-child { text-align: left; }
+.filter-contest td {vertical-align: middle;}
+
+.joined-contest-card { width:100%; position: relative; float: left; border: solid 2px #e2e2e2; border-radius: 5px; margin: 0 0px 15px 0px; }
+.joined-contest-card h2 { width: 100%; position: relative; float: left; background: #EEEEEE; color: black; margin: 0; padding: 10px 0; font-size: 10px; color: #7F7F7F; }
+.joined-contest-card h2 .first { margin: 0 0 0 15px; }
+.joined-contest-card h2 .second { margin: 0 0 0 50px; }
+.joined-contest-card ul { width: 100%; position: relative; float: left; padding: 15px 0 15px 15px; margin: 0; }
+.joined-contest-card ul li:first-child { width: 33.33%; position: relative; float: left; display: inline-block; text-align: left; border-right: solid 1px #e2e2e2; background-color: transparent;}
+.joined-contest-card ul li { width: 33.33%; position: relative; float: left; display: inline-block; text-align: center; }
+.joined-contest-card ul li:last-child { width: 33.33%; position: relative; float: left; display: inline-block; text-align: center; border-left: solid 1px #e2e2e2; }
+.joined-contest-card h3 { width: 100%; position: relative; float: left; background: #F7F8FF; color: black; margin: 0; padding: 10px 0; font-size: 10px; }
+.joined-contest-card h3 .first { margin: 0 0 0 15px; position: relative; float: left; text-transform: uppercase; color: #000000; font-weight: 400; }
+.joined-contest-card h3 .second { margin: 0 50px 0 0; position: relative; float: right; color: #7F7F7F; font-weight: 400; }
+.joined-contest-card h3 .third { margin: 0 15px 0 0; position: relative; float: right; color: #000000; font-weight: 400; }
+.joined-contest-card h4 { margin: 0; padding: 10px 0 0 0; font-size: 10px; color: #7F7F7F; font-weight: 500; }
+.joined-contest-card p { margin: 0; padding: 0; font-size: 12px; color: #000; font-weight: 500; }
+
+.more {
+  width: 100%;
+  position: fixed;
+  float: left;
+  bottom: 0;
+  left: 0;
+  z-index: 77778;
+  background: #FFF;
+}
+
+.more-contest-section { padding: 0 15px 50px;position: relative; float: left; }
+.more-contest { margin: 10px auto; display: block; background: none; border: solid 1px #08AF4F; color: #08AF4F; border-radius: 5px; font-size: 14px; font-weight: 600; padding: 5px 90px; }
+
+.recommend-match button { background: transparent linear-gradient(180deg, #1B307C 0%, #0E183E 100%) 0% 0% no-repeat padding-box; color: #ffffff; font-size: 10px; border: none; outline: none; padding: 10px 15px; border-radius: 10px; float: right; margin-right: 11px; }
+.recommend-match h2 { width: 100%; position: relative; float: left; background: #e2e2e2; color: #7F7F7F; margin: 0; padding: 10px 0; font-size: 10px; }
+.recommend-match h2 .first { margin: 0 0 0 15px; }
+.recommend-match h2 .second { margin: 0 0 0 50px; }
+.recommend-match h2 .third { float: right; margin-right: 15px;}
+
+.recommend-match h3 { width: 100%; color: #7F7F7F; margin: 0; padding: 5px 0; font-size: 10px; }
+.recommend-match h3 .first { margin: 0; float: left; padding: 0 0 5px 0; }
+.recommend-match h3 .second { margin: 0; float: right; padding: 0 0 5px 0; }
+
+.recommend-match { width: 100%; position: relative; float:left; padding:15px 0 0 0; box-shadow: 1px 2px 3px #00000029; border-top: 1px solid #EEEEEE; background: #fff; border-left: 1px solid #EEEEEE; border-radius: 5px; } 
+
+.more-match { bottom: 0 !important; padding: 0 !important; margin: 10px 0 0 0; }
+
+.top-bar-color { background-color: #EB1538; font-size: 10px; color: #FFFFFF; padding: 5px 10px; font-weight: 400;
+  border-bottom-right-radius: 10px; max-width: 120px; width: auto; text-align: center; margin: 0; text-transform: uppercase; border-top-left-radius: 5px; }
+
+.visible-hidden { visibility: hidden;}
+
+
+.form-invite-j { padding: 15px; }
+
+/*invite code css start*/
+.completed-last-section { width: 100%;position: relative; float: left; padding: 0 0 20px 0; }
+.completedcard-j { width:100%; position: relative; float: left; border: solid 2px #e2e2e2; border-radius: 5px; margin: 30px 0 0 0; }
+.completedcard-j h2 { width: 100%; position: relative; float: left; background: #EEEEEE; color: black; margin: 0; padding: 10px 0; font-size: 10px; color: #7F7F7F; }
+.completedcard-j h2 .first { margin: 0 0 0 15px; }
+.completedcard-j h2 .second { margin: 0 0 0 30px; }
+.completedcard-j h2 .third { float: right; margin: 0 15px 0 0; color: #051240; }
+.completedcard-j ul { width: 100%; position: relative; float: left; padding: 15px 0 15px 15px; margin: 0; }
+.completedcard-j ul li:first-child { width: 33.33%; position: relative; float: left; display: inline-block; text-align: left; border-right: solid 1px #e2e2e2; }
+.completedcard-j ul li { width: 33.33%; position: relative; float: left; display: inline-block; text-align: center; }
+.completedcard-j ul li:last-child { width: 33.33%; position: relative; float: left; display: inline-block; text-align: center; border-left: solid 1px #e2e2e2; }
+.completedcard-j ul li:first-child {     background-color: transparent; color: #7F7F7F;}
+
+.completedcard-j h4 { margin: 0; padding: 10px 0 0 0; font-size: 10px; color: #7F7F7F; font-weight: 500; }
+.completedcard-j p { margin: 0; padding: 0; font-size: 12px; color: #000; font-weight: 500; }
+.team-j h4 {
+    font-size: 12px;
+    position: absolute;
+    right: 15px;
+    text-transform: uppercase;
+    top: 190px;
+    z-index: 9999;
+    text-align: right;
+}
+
+.private-contest-para-j{
+    padding: 30px 0 65px 0;
+    border-bottom: 1px solid #e0e0e0;
+    opacity: 1;
+}
+    
+.private-contest-para-j p{
+    font-size: 10px;
+    color: #0F001F;
+    font-weight: 400;
+}
+
+.private-contest-sec{
+    padding: 0 0 40px 0;
+} 
+.form-praivate-j{
+    padding: 15px;
+}
+
+/*create private contest*/
+.contest-m p
+{
+  color: #7F7F7F;
+  font-size: 10px;
+      margin: 7px 0;
+}
+.contest-m h5
+{
+  color: #000000;
+  font-size: 12px;
+  margin: 0px 0 5px 0;
+}
+.contest-m
+{
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 0.5px solid #EEEEEE;
+}
+.border-m
+{
+  border-left: 0.5px solid #707070;
+  border-right: 0.5px solid #707070;
+}
+.choose-winner
+{
+    border: 1px solid #EEEEEE;
+    background: #FFFFFF;
+    margin: 10px 15px;
+    padding: 10px;
+}
+.choose-winner p{
+  color: #000000;
+  font-size: 12px;
+  margin: 0;
+}
+.choose-winner h6{
+  color: #EB1538;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  
+}
+.contest-m2
+{
+  border-bottom: 0.5px solid #EEEEEE;
+}
+
+/*radio button*/
+
+.radio-item {
+  display: inline-block;
+  position: relative;
+  padding: 0 16px;
+}
+
+.radio-item input[type='radio'] {
+  display: none;
+}
+
+.radio-item label {
+  color: #666;
+  font-weight: normal;
+}
+
+.radio-item label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 5px 0 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 11px;
+  border: 2px solid #051240;
+  background-color: transparent;
+}
+
+.radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 7px;
+    height:7px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    content: " ";
+    display: block;
+    background: #051240;
+}
+.win-m
+{
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+}
+.winner-m1
+{
+  width: 50%;
+  padding: 0px 0px 0px 18px;
+  color: #7F7F7F;
+  font-size: 10px;
+  font-weight: 600;
+}
+.winner-m1 p
+{
+  text-align: left;
+  margin: 5px 0;
+}
+.winner-m2
+{
+  width: 30%;
+  padding: 0px 0px 0px 18px;
+  color: #7F7F7F;
+  font-size: 10px;
+  font-weight: 500;
+}
+.winner-m2 p
+{
+  text-align: left;
+  margin: 5px 0;
+}
+.winner-m3
+{
+  width: 20%;
+  padding: 0px 0px 0px 18px;
+  color: #000;
+  font-size: 10px;
+  font-weight: 500;
+}
+.winner-m3 p
+{
+  text-align: left;
+  margin: 5px 0;
+}
+
+.team-inprgress-j h4 {
+    font-size: 12px;
+    position: absolute;
+    right: 15px;
+    text-transform: uppercase;
+    top: 90px;
+    z-index: 9999;
+    text-align: right;
+}
+
+
+.progress-heading h2{
+    color: #051240;
+    font-size: 14px;
+    padding: 105px 0 15px 0;
+    font-weight: 600;
+}
+
+.form-control-j, .form-control-j:focus {
+    box-shadow: 0 0 0px transparent !important;
+    border: 1px solid #7F7F7F;
+    border-radius: 11px;
+    height: 36px;
+    width: 100%;
+    padding: 17px 19px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #000000;
+}
+
+.input-group-addon {
+    position: relative;
+    float: right;
+    bottom: 26px;
+    right: 55px;
+    color: #304DB6;
+    font-size: 12px;
+}
+
+.next-mpoint-j {
+    background: #1C9B11;
+    color: #FFFFFF;
+    opacity: 1 !important;
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 90%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+    width: 100%;
+    height: 33px;
+    border: none;
+    text-align: left;
+}
+
+.point-m {
+    padding: 0 20px;
+}
+
+//  modal prize break up
+.top-prize-j h3{
+  padding: 0;
+ margin: 0 0 19px 0;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.top-prize-j p{
+padding: 0;
+margin: 0;
+font-size: 12px;
+  color: #FFFFFF;
+}
+.modal-header {
+  padding: 15px;
+  background-color: #172A6E;
+  width: 100%;
+  flex-wrap: wrap;
+  /*height: 131px;*/
+}
+.modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+  width: 100%;
+  // height: 206px;
+  background: #FFFFFF;
+}
+
+  .close-j {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  padding: 0;
+  text-shadow: 0 1px 0 #fff;
+  background: none;
+  border: none;}
+
+  .middel-prize-j p{
+   padding: 0;
+   margin: 0;
+   font-size: 12px;
+  color: #FFFFFF;
+}
+.Participation-j{
+   padding: 0;
+   margin: 0;
+   font-size: 12px;
+  color: #FFFFFF;
+}
+.entry-j p{
+   padding: 0;
+   margin: 0;
+   font-size: 12px;
+  color: #FFFFFF;
+}
+.entry-j{
+float: right;}
+
+.model-heasding1{
+font-size: 12px;
+  float: left;
+  color: #000000;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 0 10px 0;
+
+}
+
+.rank-no-j{
+  float:left;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7F7F7F;
+  font-weight: 400;
+}
+.rank-prise-j{
+  float: right;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  font-weight: 400;
+
+}
+
+
+/*MODEL CSS END*/
+
+.btn.focus, .btn:focus, .btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.form-control::-webkit-input-placeholder { color: #7F7F7F; opacity: 0.35; font-size: 12px; }
+.next-m {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #051240;
+  color: #fff;
+  opacity: 1 !important;
+  border-radius: 0;
+  padding: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  height: 59px;
+}
+/*bottom btn end*/
+
+
+.color-bg {
+  background-color: white;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.point-m {
+  padding: 0 20px;
+}
+.next-mpoint {
+  background: #08AF4F;
+  color: #fff;
+  opacity: 1 !important;
+  padding: 7px 14px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 90%;
+  display: block;
+  margin: 15px auto;
+  border-radius: 8px;
+}
+
+.loader {
+  border: 5px solid #ffffff;
+    border-radius: 50%;
+    border-top: 5px solid #051240;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: relative;
+    left: 60px;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.load-j{
+    position: relative;
+    /*float: left;*/
+}
+
+.load-j h2{
+  font-size: 16px;
+  color: #818181;
+  /*text-align: center;*/
+  position: relative;
+  right: 0px;
+}
+
+/*Leaderboard CSS*/
+.leaderboard { width:100%; position: relative; float: left; border-radius: 5px; margin: 10px 0 0 0; }
+.leaderboard ul { width: 100%; position: relative; float: left; padding: 0 0 5px 15px; margin: 0; }
+.leaderboard ul li:first-child { width: 33.33%; position: relative; float: left; display: inline-block; text-align: left; border-right: solid 1px #e2e2e2; }
+.leaderboard ul li { width: 33.33%; position: relative; float: left; display: inline-block; text-align: center; }
+.leaderboard ul li:last-child { width: 33.33%; position: relative; float: left; display: inline-block; text-align: center; border-left: solid 1px #e2e2e2; }
+
+.leaderboard .scorecard { width: 100%; display: flex; position: relative; float: left; padding: 0 0 5px 15px; margin: 0; }
+.leaderboard .scorecard li:first-child { width: 60%; position: relative; float: left; display: inline-block; text-align: left; border-right: none; }
+/*.leaderboard .scorecard li { width: 33.33%; position: relative; float: left; display: inline-block; text-align: center; }*/
+.leaderboard .scorecard li:last-child { width: 40%; position: relative; float: left; display: inline-block; text-align: center; border-left: none; margin: 10px 0 0 0; }
+.leaderboard h4 { margin: 0; padding: 10px 0 0 0; font-size: 10px; color: #7F7F7F; font-weight: 500; }
+.leaderboard h2 { margin: 0; padding: 10px 0 0 10px; font-size: 10px; color: #000; font-weight: 500; }
+.leaderboard p { margin: 0; padding: 0; font-size: 12px; color: #000; font-weight: 500; }
+
+.prize-s { width: 100%; position: relative; float: left; background: transparent linear-gradient(180deg, #1A2E78 0%, #0F1B47 100%) 0% 0% no-repeat padding-box; padding: 10px 15px; margin: 10px 0 0 0; }
+.prize-s h2 { font-size: 12px; color: #fff; margin: 0; padding: 15px 0; font-weight: 500; width: 70%; position: relative; float: left; }
+.prize-s button { background: #08AF4F; box-shadow: 1px 2px 3px #00000029; border-radius: 6px; border: none; padding: 5px 10px; float: right; width: 30%; color: #fff; max-width: 100px; position: relative; margin: 6px 0 0 0; }
+/*Leaderboard CSS*/
+
+.teams-s { margin-bottom: 0;}
+.teams-s tr { padding: 10px 0; }
+.teams-s tr td:first-child { text-align: left; padding: 13px 15px !important; width: 45%; }
+.teams-s tr td { color: #000000; text-align: left; font-size: 10px; margin: 0; padding: 0px 10px; }
+.teams-s tr td:last-child { text-align: left; }
+
+/*Completed CARD*/
+.completed-last-section { width: 100%;position: relative; float: left; padding: 0 0 20px 0; }
+.completedcard { width:100%; position: relative; float: left; border: solid 2px #e2e2e2; border-radius: 5px; margin: 15px 0 0 0; }
+.completedcard h2 { width: 100%; position: relative; float: left; background: #EEEEEE; color: black; margin: 0; padding: 10px 0; font-size: 10px; color: #7F7F7F; }
+.completedcard h2 .first { margin: 0 0 0 15px; }
+.completedcard h2 .second { margin: 0 0 0 30px; }
+
+.completedcard h2 .third { float: right; margin: 0 15px 0 0; color: #051240; }
+.completedcard ul { width: 100%; position: relative; float: left; padding: 15px 0 15px 15px; margin: 0; }
+.completedcard ul li:first-child { width: 33.33%; position: relative; float: left; display: inline-block; text-align: left; border-right: solid 1px #e2e2e2; }
+.completedcard ul li { width: 33.33%; position: relative; float: left; display: inline-block; text-align: center; }
+.completedcard ul li:last-child { width: 33.33%; position: relative; float: left; display: inline-block; text-align: center; border-left: solid 1px #e2e2e2; }
+.completedcard h3 { width: 100%; position: relative; float: left; background: #F7F8FF; color: black; margin: 0; padding: 10px 0; font-size: 10px; }
+.completedcard h3 .first { margin: 0 0 0 15px; position: relative; float: left; text-transform: uppercase; color: #000; font-weight: 500; }
+.completedcard h3 .second { margin: 0 50px 0 0; position: relative; float: right; color: #7F7F7F; font-weight: 400; }
+.completedcard h3 .third { margin: 0 15px 0 0; position: relative; float: right; color: #000000; font-weight: 500; }
+.completedcard h5 { width: 100%; position: relative; float: left; background: #F7F8FF; color: black; margin: 0; padding: 0 0 10px 0; font-size: 10px; }
+.completedcard h5 .first { margin: 0 0 0 15px; position: relative; float: left; text-transform: uppercase; color: #000000; font-weight: 500; }
+.completedcard h5 .second { margin: 0 50px 0 0; position: relative; float: right; color: #000000; font-weight: 500; }
+.completedcard h5 .third { margin: 0 15px 0 0; position: relative; float: right; color: #000000; font-weight: 500; }
+.completedcard h4 { margin: 0; padding: 10px 0 0 0; font-size: 10px; color: #7F7F7F; font-weight: 500; }
+.completedcard p { margin: 0; padding: 0; font-size: 12px; color: #000; font-weight: 500; }
+/*Completed Card*/
+
+.middel-prize-j {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*reset table css*/
+.rank-j th, .rank-j td {
+  padding: 0px !important; 
+  text-align: unset; 
+  border: none;
+}
+/*end reset table css*/
+
+// .header {
+//   top: 0px;
+// }
+
+.private-contest-section{
+  padding: 0 15px !important;
+}
+
+.fourth {
+  margin-left: 15%;
+  color: #08AF4F;
+}
+
+.discarded {
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  cursor: not-allowed;
+}
+
+.discarded-text {
+  z-index: 100;
+  position: absolute;
+  bottom: 35%;
+  width: 100%;
+  display: flex;
+  font-size: 12px;
+  background: #EEEEEE;
+  padding: 10px 0 10px 20px;
+  cursor: not-allowed;
+}
+
+.alert-message {
+  position: relative;
+  background: #EEEEEE;
+  color: #EB1538;
+  font-size: 12px;
+  padding: 12px;
+  margin-top: -20px;
+}

@@ -1,0 +1,30 @@
+.fixed-m{
+    position: fixed;
+    width: 100%;
+    z-index: 999; 
+    /* top:0; */
+
+}
+.act{
+    color: #000; background: none; border-bottom: 3px solid red; 
+}
+
+.act >li>a{
+    color: #000; background: none; border-bottom: 3px solid red; 
+}
+
+.nav-pills .nav-link.active, .custom-nav .nav-pills .show>.nav-link { color: #000; background: none; border-bottom: 3px solid red; } 
+.nav-pills{ border-radius: 0; }
+/* .custom-nav .nav-pills>li.active>Link, .custom-nav .nav-pills>li.active>Link:focus, .custom-nav .nav-pills>li.active>Link:hover { border-bottom: 3px solid red; background: none; color: red; } */
+.nav-pills>li>a { border-radius: 0; color: black; font-size: 10px; padding: 10px 0px; height: 50px; }
+.nav-pills>li { width: 24.5%; text-align: center}
+
+span.playing-in-team {
+    color: #08AF4F;
+    font-size: 10px;
+    padding: 10px 0 0 10px;
+}
+
+span.name-and-status {
+    display: flex;
+}
