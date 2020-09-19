@@ -1,4 +1,4 @@
-ers the link for the project 
+here the link for the project 
 https://gullypro.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
